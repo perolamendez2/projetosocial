@@ -15,7 +15,14 @@ html, body{
 main{
     height: 100vh;
     position: relative;
-    background-color: green;
+}
+
+body{
+    background: url('../coisa/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
 }
 
 section#telefone{
@@ -23,8 +30,14 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
-    background-color: blue;
-background:blue url(../../projetosocial/pacote-d013/imagens/frame-iphone.png)
-}
+    height: 627px;
+    width: 311px;
+    background: url(../coisa/frame-iphone.png);}
+
+    iframe#tela{
+        position: relative;
+        top: 80px;
+        left: 22px;
+        width: 269px;
+        height: 471px;
+    }
